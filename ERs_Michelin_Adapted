@@ -1,0 +1,100 @@
+Key,Project,Summary,Priority,ER Nb.,Release Michelin,Fix Version Candidate,JIRA Status,ER Status,PER Status,R&D DS Tech Focal,PER Comments DS Owner,Action
+PMU-23715,CVP,Compare Characteristics on Parts,1-Blocker / SEV1,ER007585,Release 6.2,2019x FD12 ,Started,Answered,Y,TOT,To Be Delivered,Technical Analysis 
+PMU-23647,Keystone,MFN - MGA Web services for objects creation and update,1-Blocker / SEV1,ER044457,Release 6.2,2019x FD12 ,Ready,Proposed,Y,JPC,Function Attached for 21x_FD03 + HMA000004827 - Check Feasibility FD12,Technical Analysis 
+PMU-25333,CVP,MFN - MGA Web services for objects navigations,1-Blocker / SEV1,ER060440,Release 6.2,2019x FD12 ,Started,Answered,Y,JPC,Function Attached 21x_FD03 - Validated for FD12 L.A. Michelin,Technical Analysis 
+PMU-25338,Keystone,Characteristic Master and Criteria web services,1-Blocker / SEV1,ER060614,Release 6.2,2021x FD05,Ready,Proposed,Y,TOT,USE JAVA API - 21x_FD05 - Deviation Process,Deviation Process
+PMU-25337,Keystone,Web services - Lifecycle - Revise,1-Blocker / SEV1,ER060656,Release 6.2,2020x FD01 ,Ready,Proposed,N,DRT,Resummitted Once - Available in 20x_FD01 + HMA000004820 -Anthony PERRIN,Deviation Process
+PMU-25954,CVP,Web services - Marmor 19X - User/Org (1/2),1-Blocker / SEV1,ER061744,Release 6.2,-,Ready,Proposed,Y,UKU,USE JAVA API - Deviation Process - Anthony PERRIN,Deviation Process
+PMU-25271,CVP,[PRT] Migration 19X / 3DSearch : Rechercher dans le tableau de bord actuel VS Rechercher,1-Blocker / SEV1,ER061867 ,Release 6.2,2021x FD02 ,Ready,Proposed,Y,ILI,Function Attached 21x_FD02 + HMA000004800 - Waiting Validation for FD12,Technical Analysis 
+PMU-25354,CVP,Modify easily characteristics order,1-Blocker / SEV1,ER061991,Release 6.2,2019x FD12 ,Ready,Proposed,Y,TOT,HMA000004818,Technical Analysis 
+PMU-26248,CVP,Web services - Marmor 19X - Contextes (2/2),1-Blocker / SEV1,ER062270,Release 6.2,-,Ready,Proposed,Y,JIC,USE JAVA API - Deviation Process - Anthony PERRIN,Deviation Process
+PMU-26006,Keystone,Link a document to an object / Delete the link of a document on an object,1-Blocker / SEV1,ER062552 ,Release 6.2,-,Ready,Proposed,Y,HO8,Anthony PERRIN --> Already Available https://ve4al473dsy.ux.dsone.3ds.com/3DSpace/resources/v1/modeler/documents?parentRelName=<<relName>>&parentDirection=<<to/from>>,Deviation Process
+PMU-26629,Keystone,Web services - Lifecycle - Change Maturity,1-Blocker / SEV1,ER064416,-,-,Started,Answered,Y,C1I,REJECTED,Technical Analysis 
+PMU-26630,Keystone,Web services - Lifecycle - Change Owner,1-Blocker / SEV1,ER064417,-,-,Started,Answered,Y,C1I,REJECTED,Technical Analysis 
+PMU-26632,Keystone,Web services - Lifecycle - Duplication,1-Blocker / SEV1,ER064076,Release 6.2,2019x FD12 ,Ready,Proposed,N,DRT,HMA000004821 - Anthony PERRIN,Deviation Process
+PMU-25337,Keystone,Web services - Lifecycle - Change Policy,1-Blocker / SEV1,-,-,-,Started,Answered,Y,C1I,REJECTED,Technical Analysis 
+PMU-26631,Keystone,Web services - Lifecycle - Delete Object,1-Blocker / SEV1,ER064418,Release 7.0,-,Draft,Created,N,C1I,To be Written for 2022x,Michelin - BB
+PMU-26886,CVP,Webservices REST doiventêtreStateless et doncpas de besoind’affinitéde session nide gestion de CSRF,1-Blocker / SEV1,ER060659,Release 6.2,-,Ready,Answered,Y,YXS,"Valid No Plan - Use Alternative Solution -Possible en19X avec le mode StateFull+ Get CRSF maisproblemede multiplication des sessions Passport (1 session crééà chaqueappelde webservice via CSRF) - R&D Il faut utiliser les modes d’intégration existants, à savoir CAS, SAML2 ou Trusted mode
+",Deviation Process
+PMU-24765,CVP,[MGA/MFN] Improve performance of API AddReference from DB and Refresh from DB.,1-Blocker / SEV1,ER056311,Release 6.1,2019x FD09 ,Ready,Proposed,Y,JPC,Check Feasibility FD09            Function Attached 19x FD12 + HMA000004826 ,Technical Analysis 
+PMU-24929,CVP,Characteristics order modification on MRO/IRO RELEASED state,1-Blocker / SEV1,ER061992,Release 7.0,2022x,Ready,Proposed,Y,TOT,Candidate 22x,Technical Analysis 
+,Keystone,"Modeler - Document
+",1-Blocker / SEV1,ER065265,Release 6.2,-,Ready,Proposed,Y,HO8,Internal  DS Check ,Technical Analysis 
+,Keystone,"Modeler - Manuf Item (PPR)
+",1-Blocker / SEV1,ER065261,Release 6.2,-,Ready,Proposed,Y,JPC,Internal  DS Check ,Technical Analysis 
+,Keystone,"Modeler - Physical Engineering Item
+",1-Blocker / SEV1, ER065263,Release 7.0,-,Ready,Proposed,Y,A2N,Internal  DS Check ,Technical Analysis 
+,Keystone,"Modeler - Product Specification
+",1-Blocker / SEV1, ER065266,Release 6.2,-,Ready,Proposed,Y,TOT,Internal  DS Check ,Technical Analysis 
+,Keystone,"Modeler - Resources (PPR)
+",1-Blocker / SEV1,ER065264,Release 6.2,-,Ready,Proposed,Y,JPC,Internal  DS Check ,Technical Analysis 
+,Keystone,"Modeler -Process (PPR)
+",1-Blocker / SEV1,ER065262,Release 6.2,-,Ready,Proposed,Y,JPC,Internal  DS Check ,Technical Analysis 
+PMU-23698,CVP,Multivalued attributes quick edit in spreadsheet editor,1-Blocker / SEV1,ER011067,Release 5.4,2016x FD14,Done,Closed,Y,LOK,Michelin Tests,Michelin Tests
+PMU-23711,CVP,Multilingual Search on PlmParameters,1-Blocker / SEV1,ER028921,Release 5.4,2016x FD14,Done,Closed,Y,TOT,Michelin Tests - 16x_FD14,Michelin Tests
+"PMU-26491, PMU-26005",Keystone,Search in index with criterias,1-Blocker / SEV1,ER062551,-,-,Draft,Created,N,PBI,Discussion DS/MICHELIN,Michelin - BB
+PMU-25747,Keystone,- API : Expand,1-Blocker / SEV1,-,-,-,Done,Answered,N,JPC,Waiting Thierry Saigne to close the ticket,Michelin Tests
+PMU-26540,CVP,MFN/MGA Ability to mass edit characteristic values,1-Blocker / SEV1,-,Release 6.2,-,Draft,Drafted,N,JPC,"PER initiated - to be completed by Michelin - related to PMU-23659, PMU - 23698, PMU-16178",Michelin - GC
+PMU-26494,Keystone,API to duplicate or clone a GeneralSystem,1-Blocker / SEV1,ER065754,Release 6.2,-,Identified,Created,Y,TOT,Cible Candidate FD12 --> To Be Confirmed,Technical Analysis 
+PMU-26411,Keystone,API to expose results of evaluate criteria,1-Blocker / SEV1,ER065755,Release 6.2,-,Identified,Created,Y,TOT,Cible Candidate FD12 --> To Be Confirmed,Technical Analysis 
+PMU-26277,CVP,"[XPG] Improve performance with ""XPG Light on Server""",1-Blocker / SEV1,ER065882,Release 7.0,-,Draft,Drafted,N,BH4,Related to (PMU-23668) - PER à completer - Davy Juste,Michelin - GC
+PMU-24203,CVP,Command to see object history,1-Blocker / SEV1,ER014129,Release 6.2,-,Draft,Obsolete,N,FVG,"The history component or jsp page used by BPS makes a call to Kernel to retreive the history information on the given object . A customisation or separate developement is recommended for providing history on an object to a webtop client. Currently, BPS components are made to be used with ENOVIA web apps. BPS has also made a limited number of widgets for the 3DDashboard. It make make sense in the future to provide APIs and corresponding widgets and/or X-apps for use with other apps on the 3DDashboard. At this time, this is not affordable for BPS due to resource constraints and an already filled schedule for all current releases. - DECOSTOMISATION",Michelin - BB
+PMU-25542,CVP,[19x][SR] MGA - Product Flow creation between 2 general systems doesn't work,1-Blocker / SEV1,ER063647,Release 6.1,2019x FD09,Done,Delivered,Y,JPC,Function Attached for 19x_FD09 + HMA000004836,Michelin Tests
+PMU-25382,Keystone,Web services - Update Access Rights,1-Blocker / SEV1,ER060720,-,-,Started,Answered,Y,C1I,REJECTED,Technical Analysis 
+PMU-27064,CVP,MFNMGA Tracking Export csv xlsx Funtionality usage,1-Blocker / SEV1,ER065881,Release 6.2,-,Ready,Proposed,Y,,Cible Candidate 2019x_FD12,Technical Analysis 
+PMU-23700,CVP,User Interface to Create a Characteristics Under Constraints By Other Characteristics,2-Major / SEV2,ER024749,Release 7.0,-,Started,Answered,Y,TOT,Cible Candidate for 2022x --> VALID NO PLAN --> complex to implement,Technical Analysis 
+PMU-23668,CVP,MFN-MGA Unselect objects from Auxiliary view automatically,2-Major / SEV2,ER040141,Release 6.2,-,Ready,Answered,Y,JPC,Rejected Permanently Twice --> Anthony PERRIN,Deviation Process
+PMU-26007,Keystone,Create requirement link,2-Major / SEV2,ER062553 ,-,-,Started,Answered,Y,JPC,REJECTED,Technical Analysis 
+PMU-26356,CVP,[ERD] [Performance] Enhancement Mass Characteristic Creation Duration,2-Major / SEV2,ER063217,Release 7.0,-,Started,Answered,Y,TOT,Candidate for 2022x,Technical Analysis 
+PMU-26887,CVP,3DPassport avec OIDC,2-Major / SEV2,ER064693,Release 7.0,-,Ready,Proposed,Y,YXS,Candidate for 2022x,Technical Analysis 
+PMU-23725,CVP,[PER]Ability to reconnect the link or VPLM connection to another revision,2-Major / SEV2,ER024796,Release 5.4,2016x FD14,Started,Answered,N,TOT,To be Tested,Michelin Tests
+PMU-23677,CVP,Support multiple values for Characteristics,2-Major / SEV2,ER065760,Release 6.2,-,Ready,Proposed,Y,LVD,Candidate 2019x FD12 --> Techical Analysis,Technical Analysis 
+PMU-23658,CVP,3DDashboard - Export all search results,2-Major / SEV2,ER043212,-,-,Draft,Created,N,ILI,Possible Bug,Michelin - GC
+PMU-16178,CVP,Modify characteristics created from a characteristic master on several objects,2-Major / SEV2,ER051356,Release 6.2,-,Draft,Created,N,JPC,PER initiated - to be completed by Michelin,Michelin - GC
+PMU-23707,CVP,Openess to add PPR semantic relations in Search Index (SXI)),2-Major / SEV2,ER013084,Release 5.4,2016x FD14,Done,Delivered,Y,PBI,Michelin Tests,Michelin Tests
+PMU-23692,CVP,Manufacturing Asset App: add manually customer extensions to ppr objets,2-Major / SEV2,ER019362,Release 5.4,2016x FD14,Done,Delivered,Y,JPC,Michelin Tests,Michelin Tests
+PMU-23708,CVP,Search for an item related to PlmParameter based on PlmParameter values,2-Major / SEV2,ER024324,Release 5.4,2016x FD14,Done,Delivered,Y,PBI,Michelin Tests,Michelin Tests
+PMU-23683,CVP,Ability to customize the BOM graphic view in Engineering BOM,2-Major / SEV2,ER024792,Release 5.4,2016x FD14,Done,Delivered,Y,FVG,Michelin Tests,Michelin Tests
+PMU-23734,CVP,[PER]Provide XSS strategical solution (Output Escaping) on JS variable,2-Major / SEV2,ER025520,Release 5.4,2016x FD14,Done,Delivered,Y,JPC,Michelin Tests,Michelin Tests
+PMU-23695,CVP,Access To ServerEKL On KnowledgeFeatureInstance,2-Major / SEV2,ER025662,Release 5.4,2016x FD14,Done,Delivered,Y,JPC,Michelin Tests,Michelin Tests
+PMU-23671,CVP,XPDM Export in BatchServer mode,2-Major / SEV2,ER045934,Release 5.4,2016x FD14,Done,Delivered,Y,VSQ,Michelin Tests,Michelin Tests
+PMU-23732,CVP,[PER]Delmia web apps: display in relation panel and edit requirements associated to a manufacturing item,2-Major / SEV2,ER035706,Release 5.4,2016x FD14,Done,Delivered,Y,JPC,Michelin Tests,Michelin Tests
+PMU-23731,CVP,[PER]Delmia Webapps: display requirements associated to systems or manufacturing items in Delmia widget main views,2-Major / SEV2,ER035847,Release 5.4,2016x FD14,Done,Delivered,Y,JPC,Michelin Tests,Michelin Tests
+PMU-24928,CVP,MFN/MGA Default toolbar and tables by user context,2-Major / SEV2,-,Release 6.2,-,Draft,Drafted,N,VR2,PER initiated - to be completed by Michelin,Michelin - GC
+PMU-24808,CVP,[19x][SR] Links in Relation Explorer - Resource,2-Major / SEV2,-,Release 7.0,-,Draft,Drafted,N,IAY2 ,ER must be created - check with Benoit  - Reference SR00576283 --> maybe no more interested,Michelin - BB
+PMU-13216,CVP,Edit View Columns - Define several user views,2-Major / SEV2,ER051354,Release 7.0,-,Draft,Created,N,JPC,Cible Candidate 2022x - Write PER,Michelin - GC
+PMU-25355,Keystone,Have a dedicated window for characteristics management,2-Major / SEV2,ER061990,Release 7.0,-,Draft,Created,N,TOT,Cible Candadate 2019x_FD12 ?? - PER Writing,Michelin - BB
+PMU-23693,CVP,XPDM Data Export : New completion taking into account historization link,2-Major / SEV2,ER021159,Release 7.0,-,Draft,Drafted,N,VSQ,Cible Candidate 2022x,Michelin - GC
+PMU-26356,CVP,[Performance] Enhancement Mass Characteristic Creation Duration,2-Major / SEV2,ER063217,Release 7.0,-,Ready,Proposed,Y,TOT,Cible Candidate 2022x,Technical Analysis 
+PMU-19906,CVP,[FB] 3DDashboard - Same behavior expected for Revision and Duplication,3-Minor / SEV3,ER065775,Release 6.2,-,Ready,Proposed,Y,DRT,Cible Candidate 2022x,Technical Analysis 
+PMU-23680,CVP,Ability to Use Approval and Signature Routes on VPLM objects in Delmia WebTop,3-Minor / SEV3,ER014133,Release 7.0,-,Ready,Proposed,Y,C1I,Cible Candidate 2022x,Technical Analysis 
+PMU-23664,CVP,Lifecycle Widget: ability to select any string attributes as display name,3-Minor / SEV3,ER026241,Release 7.0,-,Draft,Drafted,Y,C1I,Cible Candidate 2022x,Technical Analysis 
+PMU-23672,CVP,Instantiate characteristics on an object from another linked object,3-Minor / SEV3,ER031619,Release 7.0,-,Draft,Drafted,Y,TOT,Cible Candidate 2022x,Technical Analysis 
+PMU-23662,CVP,3DSearch: associate customer views to preconditioned search from widget app,3-Minor / SEV3,ER031988,Release 7.0,-,Draft,Drafted,Y,ILI,Cible Candidate 2022x,Technical Analysis 
+PMU-23726,CVP,[PER]Characteristics widget: ability to display the name of the selected object as title of the characteristics panel,3-Minor / SEV3,ER036547,Release 7.0,-,Ready,Proposed,Y,TOT,Cible Candidate 2022x --> VALID NO PLAN,Technical Analysis 
+PMU-23667,CVP,MFN-MGA Revise All and Upload correctly objects,3-Minor / SEV3,ER042226,Release 7.0,-,Draft,Drafted,Y,JPC,Cible Candidate 2022x --> VALID NO PLAN --> complex to implement,Technical Analysis 
+PMU-23669,CVP,Display scope link with a circle icon on General System,3-Minor / SEV3,ER045327,Release 6.1,2019x FD08,Done,Delivered,Y,JPC,Funtion attached for 19x_FD08                                                            ,Michelin Tests
+PMU-23653,CVP,Configure objects opening completion,3-Minor / SEV3,ER049082,Release 7.0,-,Started,Answered,N,JPC,Cible Candidate 2022x --> VALID NO PLAN --> complex to implement,Technical Analysis 
+PMU-25381,Keystone,Web services - Route Tasks,3-Minor / SEV3,ER060657,Release 7.0,-,Ready,Proposed,Y,FVG,Candidate 2022x,Technical Analysis 
+PMU-26009,Keystone,Mass promote,3-Minor / SEV3,ER062563 ,Release 6.1,2019x FD09,Ready,Proposed,Y,C1I,Check PER with Type and Extentions - check with Benjamin,Technical Analysis 
+PMU-25142,CVP,Display translated attribute values on 6WTag instead of database values,3-Minor / SEV3,ER058821,Release 7.0,-,Ready,Proposed,Y,ILI,Cible Candidate 2022x,Technical Analysis 
+PMU-26889,CVP,Compatibilité avec Authentification Différenciée Michelin par-dessus OIDC,3-Minor / SEV3,ER064694,Release 7.0,-,Ready,Proposed,Y,YXS,Cible Candidate 2022x,Technical Analysis 
+PMU-23661,CVP,Purge obsolete accesslists in the index,3-Minor / SEV3,ER049321,Release 6.1,2019x FD04,Started,Answered,Y,GIW,Existing Product in 19x_FD04 PES -  Clark MILLIKEN,Technical Analysis 
+PMU-23744,CVP,Compute efficiently accesslists in database,3-Minor / SEV3,ER049320,Release 7.0,-,Started,Answered,Y,JPC,"Waiting answer from BIB if it is fine - Rejected Permanently - Everything is already available in the system to accomplish this.
+You should run partial index, and you should do it regularly (every day ? every hour ? ) so that there isn't too much to index every time.",Michelin Tests
+PMU-26010,Keystone,Get active context / Change the active context,3-Minor / SEV3,ER062562,Release 6.2,-,Ready,Proposed,Y,JIC,Web Services - Check Contexts List --> Anthony PERRIN,Deviation Process
+PMU-23645,CVP,Longueur Champs Historique trop court,3-Minor / SEV3,ER050826,Release 5.4,2016x FD14,Done,Closed,N,JPC,Waiting Guillaume Bordilleau's answer,Michelin Tests
+PMU-23675,CVP,3D Search: define customer predefined queries,3-Minor / SEV3,ER017631,-,-,Done,Closed,N,JPC,Michelin Tests - Yoann Roques - Too complex for Users - Canceled,Michelin Tests
+PMU-17206,CVP,"[FB] Besoin de pouvoir différencier les gammes dupliquées et la gamme origine / MFN-MGA Load objects in main view (Revise, Duplicate)",3-Minor / SEV3,ER044459,Release 5.4,2016x FD14,Done,Delivered,Y,JPC,Mail to JPC for PES,Technical Analysis 
+PMU-23676,CVP,Filter on alternate relationship panel in MFN,3-Minor / SEV3,ER024222,Release 6.2,-,Done,Drafted,N,JPC,Possibility to Open New ER - Discussion on Use Cases ,Michelin - BB
+PMU-24804,Keystone,Relational explorer Ergonomy,3-Minor / SEV3,-,Release 7.0,-,Draft,Drafted,N,YXY,Cible Candidate 2022x,Michelin - BB
+PMU-23649,CVP,MFN/MGA Manage Settings by default on the widgets,3-Minor / SEV3,ER044461,Release 7.0,-,Draft,Created,N,JPC,Cible Candidate 2022x,Michelin - BB
+PMU-23818,CVP,MFN/MGA Return errors in case of wrong configuration,3-Minor / SEV3,-,Release 7.0,-,Draft,Drafted,N,JPC,Cible Candidate 2022x,Michelin - GC
+PMU-23643,CVP,MFN/MGA Have the information of number of objects selected,3-Minor / SEV3,ER050627,Release 7.0,-,Draft,Created,N,JPC,Cible Candidate 2022x,Michelin - GC
+PMU-23648,CVP,BOM Comparison functionnality,3-Minor / SEV3,ER044463,Release 7.0,-,Draft,Created,N,JPC,Cible Candidate 2022x - Related to PMU-23715,Michelin - GC
+PMU-23651,CVP,Export all Characteristics Master or Criteria in csv/xlsx formats,3-Minor / SEV3,ER049323,Release 7.0,-,Started,Answered,Y,TOT,Cible Candidate 2022x - directly rejected,Technical Analysis 
+PMU-27058,Keystone,Relational explorer Configuration,3-Minor / SEV3,-,Release 7.0,-,Draft,Drafted,N,YXY,Cible Candidate 2022x,Michelin - BB
+PMU-22646,CVP,MFN/MGA Remove unecessary zeros for decimal values,3-Minor / SEV3,ER065776,Release 7.0,-,Identified,Created,Y,JPC,Cible Candidate 2022x,Technical Analysis 
+PMU-23650,CVP,Characteristics - Have a free field in characteristics panel,4-Trivial / SEV4,ER044562,Release 5.4,2016x FD14,Done,Answered,Y,TOT,Michelin Tests,Michelin Tests
+PMU-24206,CVP,Fiche au poste,4-Trivial / SEV4,-,Release 7.0,-,Draft,Drafted,N,TOT,Cible Candidate 2022x - sujet de decustomization - check with Benoit,Michelin - BB
+PMU-23655,CVP,MFN-MGA Translation parametrization enhancement,4-Trivial / SEV4,ER046383,Release 7.0,-,Draft,Created,N,JPC,Cible Candidate 2022x,Michelin - GC
